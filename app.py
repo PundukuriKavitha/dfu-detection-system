@@ -98,7 +98,7 @@ img {
 # -------------------------------
 # LOAD MODELS
 # -------------------------------
-yolo_model = YOLO("C:\\Users\\lingas\\Downloads\\footulcerdfu\\runs\\runs\\detect\\train\\weights\\best.pt")
+yolo_model = YOLO("runs/runs/detect/train/weights/best.pt")
 yolo_model.to("cpu")
 
 classifier = models.efficientnet_b0(pretrained=False)
