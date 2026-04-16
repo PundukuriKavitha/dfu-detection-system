@@ -1,9 +1,10 @@
-pip install streamlit
-
-pip install opencv-python
-pip install numpy
-pip install pillow
-pip install ultralytics
-pip install matplotlib
-pip install scikit-learn
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+streamlit
+opencv-python
+numpy
+pillow
+ultralytics
+matplotlib
+scikit-learn
+torch 
+torchvision
+pillow
